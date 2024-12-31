@@ -16,7 +16,7 @@ bedrock:
   # Generally, you should only uncomment and change this if you want to limit what IPs can connect to your server.
   #address: 0.0.0.0
   # The port that will listen for connections
-  port: 19132
+  port: 3483
   # Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock.
   # This option makes the Bedrock port the same as the Java port every time you start the server.
   # This option is for the plugin version only.
@@ -82,7 +82,7 @@ saved-user-logins:
 
 # Specify how many seconds to wait while user authorizes Geyser to access their Microsoft account.
 # User is allowed to disconnect from the server during this period.
-pending-authentication-timeout: 120
+pending-authentication-timeout: -1
 
 # Bedrock clients can freeze when opening up the command prompt for the first time if given a lot of commands.
 # Disabling this will prevent command suggestions from being sent and solve freezing for Bedrock clients.
